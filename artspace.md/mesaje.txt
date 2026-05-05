@@ -1,0 +1,17 @@
+-------------------------
+Nume: Sergiu
+Email: sergiutrohin16@gmail.com
+Mesaj: Salut
+
+-------------------------
+Nume: Sandu
+Email: sergiutrohin22@gmail.com
+Mesaj: Bună
+Nume: Vlad | Email: sergiutrohin16@gmail.com | Mesaj: Bună
+Nume: Ion | Email: sergiutrohin16@gmail.com | Mesaj: Bună
+Nume: Ion | Email: sergiutrohin16@gmail.com | Mesaj: Bună, am nevoie
+
+Nume: Vladimir | Email: sergiutrohin22@gmail.com | Mesaj: Bună ziua! Am nevoie de o comandă. 
+Nume: Vladimir | Email: sergiutrohin22@gmail.com | Mesaj: Bună ziua! Am nevoie de o comandă. 
+Nume: Sergiu | Email: galinatrohin25@gmail.com | Mesaj: FUYHVJM
+Nume: Sergiu | Email: galinatrohin25@gmail.com | Mesaj: EWFW

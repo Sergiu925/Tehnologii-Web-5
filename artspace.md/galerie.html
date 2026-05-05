@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Galerie Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>ARTSPACE.MD</h1>
+<p>Galerie profesională</p>
+</header>
+
+<nav>
+<a href="index.html">Acasă</a>
+<a href="produse.html">Produse</a>
+<a href="despre.html">Despre</a>
+<a href="galerie.html">Galerie</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="gallery-header">
+<h2>Portofoliu lucrări</h2>
+<p>Alege categoria dorită pentru a vedea lucrările</p>
+</div>
+
+<!-- FILTRE -->
+<div class="filters">
+<button onclick="filter('all')">Toate</button>
+<button onclick="filter('poster')">Postere</button>
+<button onclick="filter('vizita')">Cărți vizită</button>
+<button onclick="filter('stickere')">Stickere</button>
+</div>
+
+<!-- GALERIE -->
+<div class="gallery">
+
+<div class="item poster">
+<img src="FOTO/foto-galerie/Abtibild.jpg">
+<div class="overlay">Abțibild personalizat</div>
+</div>
+
+<div class="item vizita">
+<img src="FOTO/foto-galerie/carti-de-vizita.jpg">
+<div class="overlay">Cărți de vizită premium</div>
+</div>
+
+<div class="item vizita">
+<img src="FOTO/foto-galerie/carti-de-vizita-2.jpg">
+<div class="overlay">Design business modern</div>
+</div>
+
+<div class="item poster">
+<img src="FOTO/foto-galerie/Cate-de-colorat.jpg">
+<div class="overlay">Cărți de colorat</div>
+</div>
+
+<div class="item stickere">
+<img src="FOTO/foto-galerie/Cutiuta.jpg">
+<div class="overlay">Cutii personalizate</div>
+</div>
+
+<div class="item stickere">
+<img src="FOTO/foto-galerie/semn-de-carrte.jpg">
+<div class="overlay">Semn de carte artistic</div>
+</div>
+
+</div>
+
+<script>
+function filter(type){
+let items = document.querySelectorAll('.item');
+
+items.forEach(item =>{
+
+if(type === 'all'){
+item.classList.remove('hide');
+}else{
+if(item.classList.contains(type)){
+item.classList.remove('hide');
+}else{
+item.classList.add('hide');
+}
+}
+
+});
+}
+</script>
+
+</body>
+</html>

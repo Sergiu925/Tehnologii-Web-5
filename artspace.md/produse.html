@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Produse</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>ARTSPACE.MD</h1>
+<p>Printare • Copiere • Laminare • Design</p>
+</header>
+
+<nav>
+<a href="index.html">Acasă</a>
+<a href="produse.html">Produse</a>
+<a href="despre.html">Despre</a>
+<a href="galerie.html">Galerie</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Produsele noastre</h2>
+
+<p>
+Realizăm produse tipărite pentru promovare, evenimente și utilizare personală.
+</p>
+
+<div class="products">
+
+<div class="product">
+<img src="FOTO/produse-imagini/postere.jpg">
+<h3>Postere</h3>
+<p>Printare A3/A2 de calitate.</p>
+<p class="pret">de la 20 lei</p>
+<button onclick="comanda('Postere',20)">Comandă</button>
+</div>
+
+<div class="product">
+<img src="FOTO/produse-imagini/carti-vizita.jpg">
+<h3>Cărți de vizită</h3>
+<p>Design profesional modern.</p>
+<p class="pret">de la 50 lei</p>
+<button onclick="comanda('Cărți de vizită',50)">Comandă</button>
+</div>
+
+<div class="product">
+<img src="FOTO/produse-imagini/albume.jpg">
+<h3>Albume</h3>
+<p>Albume foto personalizate.</p>
+<p class="pret">de la 100 lei</p>
+<button onclick="comanda('Albume',100)">Comandă</button>
+</div>
+
+<div class="product">
+<img src="FOTO/produse-imagini/stickere.jpg">
+<h3>Stickere</h3>
+<p>Stickere personalizate.</p>
+<p class="pret">de la 10 lei</p>
+<button onclick="comanda('Stickere',10)">Comandă</button>
+</div>
+
+</div>
+
+</div>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+<div class="popup-box">
+
+<h3 id="produs-nume"></h3>
+
+<input type="number" id="cantitate" placeholder="Cantitate">
+
+<p id="total"></p>
+
+<button onclick="calculeaza()">Calculează total</button>
+<button onclick="inchide()">Închide</button>
+
+</div>
+</div>
+
+<footer>
+<p>© 2026 artspace.md</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

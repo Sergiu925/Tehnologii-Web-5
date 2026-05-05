@@ -1,0 +1,204 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+8.8.8.8    codeload.github.com
+
+8.8.8.8    support.kaspersky.ru
+
+8.8.8.8    kaspersky.ru
+
+8.8.8.8    virusinfo.info
+
+8.8.8.8    forum.kasperskyclub.ru
+
+8.8.8.8    cyberforum.ru
+
+8.8.8.8    soft-file.ru
+
+8.8.8.8    360totalsecurity.com
+
+8.8.8.8    cezurity.com
+
+8.8.8.8    www.dropbox.com
+
+8.8.8.8    193.228.54.23
+
+8.8.8.8    spec-komp.com
+
+8.8.8.8    eset.ua
+
+8.8.8.8    regist.safezone.cc
+
+8.8.8.8    programki.net
+
+8.8.8.8    safezone.cc
+
+
+8.8.8.8    www.esetnod32.ru
+
+8.8.8.8    www.comss.ru
+
+8.8.8.8    forum.oszone.net
+
+
+8.8.8.8    blog-pc.ru
+
+8.8.8.8    securrity.ru
+
+8.8.8.8    norton.com
+
+8.8.8.8    vellisa.ru
+
+8.8.8.8    download-software.ru
+
+8.8.8.8    drweb-cureit.ru
+
+8.8.8.8    softpacket.ru
+
+8.8.8.8    www.kaspersky.com
+
+
+8.8.8.8    www.avast.ua
+
+8.8.8.8    www.avast.ru
+
+8.8.8.8    zillya.ua
+
+8.8.8.8    safezone.ua
+
+8.8.8.8    vms.drweb.ru
+
+8.8.8.8    www.drweb.ua
+
+8.8.8.8    free.drweb.ru
+
+8.8.8.8    biblprog.org.ua
+
+8.8.8.8    free-software.com.ua
+
+8.8.8.8    free.dataprotection.com.ua
+
+8.8.8.8    www.drweb.com
+
+8.8.8.8    www.softportal.com
+
+8.8.8.8    www.nashnet.ua
+
+8.8.8.8    softlist.com.ua
+
+8.8.8.8    it-doc.info
+
+8.8.8.8    esetnod32.ru
+
+8.8.8.8    blog-bridge.ru
+
+8.8.8.8    remontka.pro
+
+8.8.8.8    securos.org.ua
+
+8.8.8.8    pc-helpp.com
+
+8.8.8.8    softdroid.net
+
+
+8.8.8.8    malwarebytes.com
+
+8.8.8.8    ru.vessoft.com
+
+8.8.8.8    AlpineFile.ru
+
+8.8.8.8    malwarebytes-anti-malware.ru.uptodown.com
+
+8.8.8.8    ProgramDownloadFree.com
+
+8.8.8.8    download.cnet.com
+
+8.8.8.8    soft.mydiv.net
+
+8.8.8.8    spyware-ru.com
+
+8.8.8.8    remontcompa.ru
+
+8.8.8.8    www.hitmanpro.com
+
+8.8.8.8    hitman-pro.ru.uptodown.com
+
+8.8.8.8    www.bleepingcomputer.com
+
+8.8.8.8    soft.oszone.net
+
+8.8.8.8    krutor.org
+
+8.8.8.8    www.greatis.com
+
+8.8.8.8    unhackme.ru.uptodown.com
+
+8.8.8.8    programy.com.ua
+
+8.8.8.8    rsload.net
+
+8.8.8.8    softobase.com
+
+
+8.8.8.8    www.besplatnoprogrammy.ru
+
+8.8.8.8    unhackme.en.softonic.com
+
+8.8.8.8    unhackme.com
+
+8.8.8.8    unhackme.ru
+
+8.8.8.8    nnm-club.name
+
+8.8.8.8    vgrom.com
+
+8.8.8.8    moneropool.com
+
+8.8.8.8    mine.moneropool.com
+
+8.8.8.8    xmr.cryptopool.org
+
+8.8.8.8    pool.monero.org
+
+8.8.8.8    minexmr.com
+
+8.8.8.8    monero.crypto-pool.fr
+
+8.8.8.8    dwarfpool.com
+
+
+
+
+
+
+
+8.8.8.8    yadi.su
+8.8.8.8    pool.minexmr.to
+
+
+8.8.8.8    eset.com
+
+8.8.8.8    mywot.com
+
+8.8.8.8    z-oleg.com
+
+127.0.0.1 artspace.md

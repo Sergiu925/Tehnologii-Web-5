@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>ARTSPACE.MD</h1>
+<p>Printare • Copiere • Laminare • Design</p>
+</header>
+
+<nav>
+<a href="index.html">Acasă</a>
+<a href="produse.html">Produse</a>
+<a href="despre.html">Despre</a>
+<a href="galerie.html">Galerie</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2 style="text-align:center;font-size:40px;">Contact</h2>
+
+<div class="contact-box">
+
+<!-- STÂNGA -->
+<div class="contact-info">
+
+<h3>Informații contact</h3>
+
+<p><b>Telefon:</b> 069296518</p>
+<p><b>Email:</b> st.adt.artspace@email.com</p>
+<p><b>Adresă:</b> Chișinău</p>
+
+<h3>Program de lucru</h3>
+
+<p>Luni - Vineri: 09:00 - 18:00</p>
+<p>Sâmbătă: 10:00 - 15:00</p>
+<p>Duminică: Închis</p>
+
+<img src="FOTO/Contact-foto/contact.jpg" class="contact-img">
+
+</div>
+
+<!-- DREAPTA -->
+<div class="contact-form">
+
+<h3>Trimite un mesaj</h3>
+
+<form id="contactForm" action="contact.php" method="post">
+
+<input type="text" name="nume" placeholder="Nume" required>
+<input type="email" name="email" placeholder="Email" required>
+<textarea name="mesaj" placeholder="Mesaj" required></textarea>
+
+<button type="submit">Trimite</button>
+
+<p id="raspuns"></p>
+
+</form>
+
+</div>
+</div>
+</div>
+
+<footer>
+<p>© 2026 artspace.md</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
